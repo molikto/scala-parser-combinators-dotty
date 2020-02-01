@@ -1,10 +1,10 @@
-val dottyVersion = "0.20.0-RC1"
+val dottyVersion = "0.21.0-RC1"
 
 lazy val root = project
   .in(file("."))
   .settings(
     name := "scala-parser-combinators-dotty",
-    version := "0.1.0",
+    version := "0.2.0",
 
     scalaVersion := dottyVersion,
 
